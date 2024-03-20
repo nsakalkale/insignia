@@ -11,15 +11,8 @@ export default function About() {
         <div className="row">
           <div className="col-sm-12">
             &nbsp;
-            <div className="bg-white p-4 rounded shadow-sm">
-              <h1
-                style={{
-                  textDecoration: "underline",
-                  textDecorationStyle: "double",
-                }}
-              >
-                ABOUT
-              </h1>
+            <div className="bg-white p-4 rounded shadow-sm d-flex align-items-center">
+              <h1>ABOUT</h1>
             </div>
             &nbsp;
             <div className="p-4 rounded shadow-sm bg-white">

@@ -13,14 +13,7 @@ export default function OurTeam() {
           <div className="col-sm-12">
             &nbsp;
             <div className="bg-white p-4 rounded shadow-sm">
-              <h1
-                style={{
-                  textDecoration: "underline",
-                  textDecorationStyle: "double",
-                }}
-              >
-                OUR TEAM
-              </h1>
+              <h1>OUR TEAM</h1>
             </div>
             <div className="p-4 rounded shadow-sm bg-white mt-2">
               <div className="row">
@@ -28,7 +21,7 @@ export default function OurTeam() {
                   <div className="card bg-white shadow-sm poppins p-2 my-2">
                     <img src={one} />
                     <hr />
-                    <div className="card-title text-center fw-bolder text-decoration-underline">
+                    <div className="card-title text-center fw-bolder ">
                       Saket Dronamraju
                     </div>
                     <div className="text-muted text-center">Team Leader</div>
@@ -38,7 +31,7 @@ export default function OurTeam() {
                   <div className="card bg-white shadow-sm p-2 my-2">
                     <img src={one} />
                     <hr />
-                    <div className="card-title text-center fw-bolder text-decoration-underline">
+                    <div className="card-title text-center fw-bolder ">
                       Arya Patil
                     </div>
                     <div className="text-muted text-center">AI/ML</div>
@@ -48,7 +41,7 @@ export default function OurTeam() {
                   <div className="card bg-white shadow-sm p-2 my-2">
                     <img src={one} />
                     <hr />
-                    <div className="card-title text-center fw-bolder text-decoration-underline">
+                    <div className="card-title text-center fw-bolder ">
                       Nimish Sakalkale
                     </div>
                     <div className="text-muted text-center">Web Dev</div>
@@ -58,7 +51,7 @@ export default function OurTeam() {
                   <div className="card bg-white shadow-sm p-2 my-2">
                     <img src={one} />
                     <hr />
-                    <div className="card-title text-center fw-bolder text-decoration-underline">
+                    <div className="card-title text-center fw-bolder ">
                       Ishan Urgaonkar
                     </div>
                     <div className="text-muted text-center">Unreal Engine</div>
