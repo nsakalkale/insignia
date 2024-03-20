@@ -21,6 +21,19 @@ export default function Services() {
                     <source src={vid1} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
+                  <br />
+                  <br />
+                  <p>
+                    Meet Mr. Steve, a captivating historian with an infectious
+                    passion for the past. With a tweed jacket and a well-worn
+                    leather satchel slung over his shoulder, Mr. Steve embodies
+                    the essence of a seasoned educator dedicated to unraveling
+                    the mysteries of history. As he strides into the classroom,
+                    his eyes alight with enthusiasm, students can't help but be
+                    drawn to his magnetic presence. With a warm smile and a
+                    twinkle in his eye, he welcomes his eager pupils, ready to
+                    embark on another journey through the annals of time.
+                  </p>
                 </div>
                 <div className="col-sm-6">
                   <h2>
