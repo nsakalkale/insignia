@@ -42,7 +42,7 @@ export default function Main() {
                     learning experience for every student.
                   </p>
                   <NavLink to="/about">
-                    <button>More Info</button>
+                    <button className="button-in-blue">More Info</button>
                   </NavLink>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default function Main() {
             <h1>Wanna Explore ??</h1>
             <br />
             <NavLink to="/services">
-              <button>Have a Tour</button>
+              <button className="button-in-blue">Have a Tour</button>
             </NavLink>
           </div>
         </div>

@@ -66,9 +66,9 @@ body {
 .bg-light-blue {
   background: #e3f2fd;
 }
-.navbar_is {
+/* .navbar_is {
   background: #e3f2fd;
-}
+} */
 *::-webkit-scrollbar {
   width: 8px;
 }
@@ -79,4 +79,34 @@ body {
 
 *::-webkit-scrollbar-thumb {
   background: #ddd;
+}
+
+.button-in-blue {
+  padding: 10px 20px;
+  color: white;
+  font-family: "Poppins";
+  background: rgb(6, 6, 108);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-in-blue:hover {
+  outline: 2px solid rgb(6, 6, 108);
+  outline-offset: 2px;
+}
+
+.big-title {
+  font-size: 600%;
+  font-weight: bold;
+  color: grey;
+  text-align: center;
+}
+
+.button-in-blue:active {
+  background: rgb(8, 8, 162);
+  transform: translateY(2px);
+  outline: 2px solid rgb(6, 6, 108);
+  outline-offset: 2px;
 }

@@ -11,29 +11,30 @@ export default function About() {
       <div className="container-fluid poppins">
         <div className="row">
           <div className="col-sm-12">
-            <div className="mt-1 bg-white p-4 rounded shadow-sm d-flex align-items-center">
-              <h1>ABOUT</h1>
+            <div className="mt-1 big-title p-4">
+              <span>About</span>
+            </div>
+
+            <div className="container">
+              <p className="text-center">
+                <b>EduSphere</b> is a revolutionary educational platform that
+                empowers children aged 5-12 to learn through interactive
+                experiences powered by Virtual Reality (VR), Augmented Reality
+                (AR), Artificial Intelligence (AI), and Machine Learning (ML).
+                <br />
+                <br />
+                <b>Imagine:</b> Your child exploring the wonders of the solar
+                system in VR, interacting with 3D models of planets, or
+                embarking on a virtual journey through ancient civilizations in
+                AR.
+              </p>
             </div>
 
             <div className="p-4 rounded shadow-sm bg-white row mt-2">
               <div className="col-sm-6">
                 <img src={about_image} className="w-100" />
-                <br />
-                <br />
-                <p>
-                  <b>EduSphere</b> is a revolutionary educational platform that
-                  empowers children aged 5-12 to learn through interactive
-                  experiences powered by Virtual Reality (VR), Augmented Reality
-                  (AR), Artificial Intelligence (AI), and Machine Learning (ML).
-                  <br />
-                  <br />
-                  <b>Imagine:</b> Your child exploring the wonders of the solar
-                  system in VR, interacting with 3D models of planets, or
-                  embarking on a virtual journey through ancient civilizations
-                  in AR.
-                </p>
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-6 mt-2">
                 <p>
                   <b>
                     EduSphere brings abstract concepts to life, sparking

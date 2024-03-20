@@ -8,7 +8,7 @@ import ourteam from "../images/ourteam.png";
 
 export default function Navbar() {
   return (
-    <div className="navbar_is shadow-sm sticky-top poppins align-items-center">
+    <div className="bg-white shadow-sm sticky-top poppins align-items-center">
       <div className="p-3 d-flex justify-content-between">
         <div className="">
           <div className="concert main_title poppins">
