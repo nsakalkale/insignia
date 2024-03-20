@@ -16,13 +16,13 @@ export default function Navbar() {
           </div>
         </div>
         <div className="d-flex align-items-center">
-          <NavLink to="/" className="me-5" exact>
+          <NavLink to="/" className="me-xl-5 me-sm-3 me-4" exact>
             <img src={home} width={25} alt="Home" />
           </NavLink>
-          <NavLink to="/about" className="me-5">
+          <NavLink to="/about" className="me-xl-5 me-sm-3 me-4">
             <img src={about} width={25} alt="About" />
           </NavLink>
-          <NavLink to="/ourteam" className="me-5">
+          <NavLink to="/ourteam" className="me-xl-5 me-sm-3 me-4">
             <img src={ourteam} width={25} alt="Our Team" />
           </NavLink>
         </div>
