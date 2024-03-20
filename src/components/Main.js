@@ -4,12 +4,23 @@ import Navbar from "../essentials/Navbar";
 import SideNav from "../essentials/SideNav";
 import Footer from "../essentials/Footer";
 import one from "../images/1.png";
+import logo from "../images/logo.png";
+
 export default function Main() {
   return (
     <>
       <Navbar />
 
       <div className="container-fluid poppins">
+        <div className="">
+          <div className="w-10 text-center">
+            <img src={logo} width={300} />
+            <h1>
+              <b>Welcome to EduSphere !!</b>
+            </h1>
+          </div>
+        </div>
+        <br />
         <div className="row">
           <div className="col-sm-12">
             <div className="bg-white rounded shadow-sm p-4">

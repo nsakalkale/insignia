@@ -14,8 +14,11 @@ export default function OurTeam() {
       <div className="container poppins">
         <div className="row">
           <div className="col-sm-12">
-            <div className="bg-white p-4 rounded shadow-sm mt-1">
-              <h1>OUR TEAM</h1>
+            <div className="mt-0 big-title p-4">
+              <span>Our Team</span>
+            </div>
+            <div className="text-center">
+              <h4>"Brains are bright, spirits are high !!"</h4>
             </div>
             <div className="p-4 rounded shadow-sm bg-white mt-2">
               <div className="row">
