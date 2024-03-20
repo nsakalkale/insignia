@@ -1,23 +1,31 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Navbar from "../essentials/Navbar";
 import Footer from "../essentials/Footer";
-import vid1 from "../videos/vid1.mp4";
+import vid1 from "../videos/vid1.mov";
 import mentor from "../images/mentor.png";
+import langai from "../images/langai.png";
+import gif_langai from "../images/langai.gif";
 
 export default function Services() {
   return (
     <>
       <Navbar />
       <div className="container-fluid poppins">
+        <div className="mt-1 big-title p-4">
+          <span>Let's Go !!</span>
+        </div>
         <div className="row">
-          <div className="col-sm-12">
-            <div className="bg-white p-4 rounded shadow-sm text-center mt-2">
-              <h1>Welcome to the World of Fun Learning !!</h1>
-            </div>
+          <div className="col-sm-12 bg-white shadow-sm rounded">
             <div className="p-4">
               <div className="row align-items-center">
                 <div className="col-sm-6">
-                  <video className="w-100" controls>
+                  <video
+                    className="w-100"
+                    controls="true"
+                    controlsList="nodownload"
+                    id="myVideo"
+                  >
                     <source src={vid1} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
@@ -72,6 +80,43 @@ export default function Services() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="p-4">
+          <div className="row align-items-center">
+            <div className="col-sm-6">
+              <h2>
+                <img src={langai} width={50} alt="Mentor" />
+                &nbsp; "LangAI: Personal Language Mentor"
+              </h2>
+              <p>
+                Languishing in language limbo? LangAI, your personal AI mentor,
+                is here to rescue you! Forget grammar mazes and pronunciation
+                pitfalls. LangAI not only corrects your writing and speech, but
+                also acts as a patient guide, explaining the "why" behind the
+                corrections. It adapts to your level, whether you're a beginner
+                tripping over "hello" or an intermediate learner seeking to
+                finesse your fluency. Imagine practicing with a supportive AI
+                partner who gently corrects your "bonjour" butchering and
+                suggests more eloquent expressions. LangAI fosters a safe space
+                for experimentation and learning, replacing fear with
+                confidence. Through engaging activities and personalized
+                feedback, you'll transform from a language struggler to a
+                confident communicator. LangAI isn't just a correction tool;
+                it's a springboard to fluency. Let LangAI become your
+                indispensable guide, unlocking your linguistic potential, one
+                step (or phrase) at a time.
+              </p>
+              <div className="text-center">
+                <NavLink to="/langai">
+                  <button className="button-in-blue">LangAI</button>
+                </NavLink>
+              </div>
+            </div>
+
+            <div className="col-sm-6">
+              <img src={gif_langai} className="w-100" />
             </div>
           </div>
         </div>

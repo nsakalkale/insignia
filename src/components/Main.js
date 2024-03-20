@@ -4,7 +4,7 @@ import Navbar from "../essentials/Navbar";
 import SideNav from "../essentials/SideNav";
 import Footer from "../essentials/Footer";
 import one from "../images/1.png";
-import logo from "../images/logo.png";
+import logo from "../images/logo_grad.png";
 
 export default function Main() {
   return (
@@ -12,14 +12,14 @@ export default function Main() {
       <Navbar />
 
       <div className="container-fluid poppins">
-        <div className="">
+        <div className="gradient-container">
           <div className="w-10 text-center">
             <img src={logo} width={300} />
-            <h1>
-              <b>Welcome to EduSphere !!</b>
-            </h1>
           </div>
         </div>
+        <h1 className="text-center">
+          <b>Welcome to EduSphere !!</b>
+        </h1>
         <br />
         <div className="row">
           <div className="col-sm-12">

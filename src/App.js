@@ -5,7 +5,7 @@ import Main from "./components/Main";
 import About from "./components/About";
 import OurTeam from "./components/OurTeam";
 import Services from "./components/Services";
-
+import LangAI from "./components/LangAI";
 function App() {
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
               <Route path="about" element={<About />} />
               <Route path="ourteam" element={<OurTeam />} />
               <Route path="services" element={<Services />} />
+              <Route path="langai" element={<LangAI />} />
               <Route path="*" element={<Err />} />
             </Routes>
           </BrowserRouter>

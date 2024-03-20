@@ -5,6 +5,7 @@ import one from "../images/1.png";
 import ishan from "../images/ishan.jpg";
 import nimish from "../images/nimish.jpg";
 import saket from "../images/saket.jpg";
+import arya from "../images/arya.jpg";
 import Footer from "../essentials/Footer";
 
 export default function OurTeam() {
@@ -34,7 +35,7 @@ export default function OurTeam() {
                 </div>
                 <div className="col-sm-3">
                   <div className="card bg-white shadow-sm p-2 my-2">
-                    <img src={one} className="rounded" height={300} />
+                    <img src={arya} className="rounded" height={300} />
                     <hr />
                     <div className="card-title text-center fw-bolder ">
                       Arya Patil
