@@ -2,6 +2,9 @@ import React from "react";
 import Navbar from "../essentials/Navbar";
 import SideNav from "../essentials/SideNav";
 import one from "../images/1.png";
+import ishan from "../images/ishan.jpg";
+import nimish from "../images/nimish.jpg";
+import saket from "../images/saket.jpg";
 import Footer from "../essentials/Footer";
 
 export default function OurTeam() {
@@ -11,15 +14,14 @@ export default function OurTeam() {
       <div className="container poppins">
         <div className="row">
           <div className="col-sm-12">
-            &nbsp;
-            <div className="bg-white p-4 rounded shadow-sm">
+            <div className="bg-white p-4 rounded shadow-sm mt-1">
               <h1>OUR TEAM</h1>
             </div>
             <div className="p-4 rounded shadow-sm bg-white mt-2">
               <div className="row">
                 <div className="col-sm-3">
                   <div className="card bg-white shadow-sm poppins p-2 my-2">
-                    <img src={one} />
+                    <img src={saket} className="rounded" height={300} />
                     <hr />
                     <div className="card-title text-center fw-bolder ">
                       Saket Dronamraju
@@ -29,7 +31,7 @@ export default function OurTeam() {
                 </div>
                 <div className="col-sm-3">
                   <div className="card bg-white shadow-sm p-2 my-2">
-                    <img src={one} />
+                    <img src={one} className="rounded" height={300} />
                     <hr />
                     <div className="card-title text-center fw-bolder ">
                       Arya Patil
@@ -39,7 +41,7 @@ export default function OurTeam() {
                 </div>
                 <div className="col-sm-3">
                   <div className="card bg-white shadow-sm p-2 my-2">
-                    <img src={one} />
+                    <img src={nimish} className="rounded" height={300} />
                     <hr />
                     <div className="card-title text-center fw-bolder ">
                       Nimish Sakalkale
@@ -49,7 +51,7 @@ export default function OurTeam() {
                 </div>
                 <div className="col-sm-3">
                   <div className="card bg-white shadow-sm p-2 my-2">
-                    <img src={one} />
+                    <img src={ishan} className="rounded" height={300} />
                     <hr />
                     <div className="card-title text-center fw-bolder ">
                       Ishan Urgaonkar
@@ -63,6 +65,7 @@ export default function OurTeam() {
         </div>
       </div>
       <br />
+
       <Footer />
     </>
   );

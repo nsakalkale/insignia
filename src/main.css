@@ -63,3 +63,20 @@ body {
     height: 0;
   }
 }
+.bg-light-blue {
+  background: #e3f2fd;
+}
+.navbar_is {
+  background: #e3f2fd;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #ddd;
+}
