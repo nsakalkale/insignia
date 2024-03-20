@@ -7,6 +7,7 @@ import about_image from "../images/about_image.gif";
 export default function About() {
   return (
     <>
+      <title>About</title>
       <Navbar />
       <div className="container-fluid poppins">
         <div className="row">

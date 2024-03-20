@@ -4,6 +4,7 @@ import Footer from "../essentials/Footer";
 export default function LangAI() {
   return (
     <>
+      <title>LangAI</title>
       <Navbar />
       <div className="mt-2 bg-white shadow-sm">
         <iframe

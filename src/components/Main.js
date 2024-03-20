@@ -9,6 +9,8 @@ import logo from "../images/logo_grad.png";
 export default function Main() {
   return (
     <>
+      <title>Home</title>
+
       <Navbar />
 
       <div className="container-fluid poppins">

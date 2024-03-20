@@ -102,6 +102,7 @@ body {
   font-weight: bold;
   color: grey;
   text-align: center;
+  line-height: 100px;
 }
 
 .button-in-blue:active {
@@ -109,4 +110,8 @@ body {
   transform: translateY(2px);
   outline: 2px solid rgb(6, 6, 108);
   outline-offset: 2px;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(fonts/Poppins/Poppins-Regular.ttf);
 }

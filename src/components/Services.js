@@ -10,6 +10,7 @@ import gif_langai from "../images/langai.gif";
 export default function Services() {
   return (
     <>
+      <title>Services</title>
       <Navbar />
       <div className="container-fluid poppins">
         <div className="mt-1 big-title p-4">

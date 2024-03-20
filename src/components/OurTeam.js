@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../essentials/Navbar";
 import SideNav from "../essentials/SideNav";
 import one from "../images/1.png";
@@ -7,10 +7,12 @@ import nimish from "../images/nimish.jpg";
 import saket from "../images/saket.jpg";
 import arya from "../images/arya.jpg";
 import Footer from "../essentials/Footer";
+import { useLocation } from "react-router-dom";
 
 export default function OurTeam() {
   return (
     <>
+      <title>Our team</title>
       <Navbar />
       <div className="container poppins">
         <div className="row">
