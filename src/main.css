@@ -115,3 +115,10 @@ body {
   font-family: "Poppins";
   src: url(fonts/Poppins/Poppins-Regular.ttf);
 }
+.welcome_message {
+  font-size: 130%;
+
+  animation: typing 7s;
+  white-space: nowrap;
+  overflow: hidden;
+}
