@@ -12,16 +12,24 @@ export default function Main() {
       <title>Home</title>
 
       <Navbar />
-
       <div className="container-fluid poppins">
         <div className="gradient-container">
           <div className="w-10 text-center">
             <img src={logo} width={300} />
           </div>
         </div>
-        <h1 className="text-center">
-          <b>Welcome to EduSphere !!</b>
-        </h1>
+
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="d-flex justify-content-center">
+              <div className="welcome_message">
+                <h1 className="text-center">
+                  <b>Welcome to EduSphere !!</b>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
         <br />
         <div className="row">
           <div className="col-sm-12">
@@ -31,7 +39,9 @@ export default function Main() {
                   <img src={one} className="w-100" />
                 </div>
                 <div className="col-sm-6 p-2">
-                  <h1>AI/ML in Learning</h1>
+                  <h1>
+                    <b>AI/ML in Learning</b>
+                  </h1>
 
                   <p>
                     The education landscape is undergoing a significant
