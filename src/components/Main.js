@@ -12,9 +12,9 @@ export default function Main() {
       <title>Home</title>
 
       <Navbar />
-      <div className="position-absolute mt-2">
+      {/* <div className="position-absolute mt-2">
         <button className="button-in-blue">Products</button>
-      </div>
+      </div> */}
       <div className="container-fluid poppins">
         <div className="gradient-container">
           <div className="w-10 text-center">
