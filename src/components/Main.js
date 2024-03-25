@@ -12,10 +12,13 @@ export default function Main() {
       <title>Home</title>
 
       <Navbar />
+      <div className="position-absolute mt-2">
+        <button className="button-in-blue">Products</button>
+      </div>
       <div className="container-fluid poppins">
         <div className="gradient-container">
           <div className="w-10 text-center">
-            <img src={logo} width={300} />
+            <img src={logo} width={300} alt="..." />
           </div>
         </div>
 
@@ -36,7 +39,7 @@ export default function Main() {
             <div className="bg-white rounded shadow-sm p-4">
               <div className="row align-items-center">
                 <div className="col-sm-6">
-                  <img src={one} className="w-100" />
+                  <img src={one} className="w-100" alt="..." />
                 </div>
                 <div className="col-sm-6 p-2">
                   <h1>
@@ -75,7 +78,9 @@ export default function Main() {
         <br />
         <div className="row">
           <div className="text-center">
-            <h1>Wanna Explore ??</h1>
+            <h1>
+              <b>Wanna Explore ??</b>
+            </h1>
             <br />
             <NavLink to="/services">
               <button className="button-in-blue">Have a Tour</button>
