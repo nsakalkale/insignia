@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  user-select: none;
 }
 .nlink {
   color: black;
