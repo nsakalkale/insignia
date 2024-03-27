@@ -79,6 +79,9 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
+  background: #efefef;
+}
+*::-webkit-scrollbar-thumb:hover {
   background: #ddd;
 }
 

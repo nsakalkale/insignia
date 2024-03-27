@@ -21,7 +21,9 @@ export default function OurTeam() {
               <span>Our Team</span>
             </div>
             <div className="text-center">
-              <h4>"Brains are bright, spirits are high !!"</h4>
+              <h4>
+                <b>"Brains are bright, spirits are high !!"</b>
+              </h4>
             </div>
             <div className="p-4 rounded shadow-sm bg-white mt-2">
               <div className="row">
@@ -52,7 +54,9 @@ export default function OurTeam() {
                     <div className="card-title text-center fw-bolder ">
                       Nimish Sakalkale
                     </div>
-                    <div className="text-muted text-center">Web Dev</div>
+                    <div className="text-muted text-center">
+                      DevOps & Web Dev
+                    </div>
                   </div>
                 </div>
                 <div className="col-sm-3">
